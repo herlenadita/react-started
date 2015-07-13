@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#app{
+    background-color: #ddd;
+    height: 100%;
+    padding: 20px;
+}
+
+input{
+  padding: 5px;
+  border-radius: 3px;
+  border: solid 2px #707070;
+  outline: none;
+}
+input:focus{
+  transition: all 0.3s ease;
+  border: solid 2px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+button {
+  color: #222;
+  background: #CFECCC;
+  font-weight: bold;
+  border: 2px solid #222;
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  color: #fff;
+  background: #222;
+}
