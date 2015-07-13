@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#app{
+    background-color: #ddd;
+    height: 100%;
+}
+.container{
+    padding: 20px;
+    text-align: center;
+}
+
+input{
+  padding: 5px;
+  border-radius: 3px;
+  border: solid 1px #ddd;
+  outline: none;
+}
+input:focus{
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
