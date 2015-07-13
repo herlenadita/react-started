@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            Latihan Add State React Js
+        </title>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="js/react.js"></script>
+        <script src="js/jsx.js"></script>
+        <script type="text/jsx">
+            var HelloUser = React.createClass({
+                getInitialState: function(){
+                    return {
+                        username: 'Budi Wahyu H. A.',
+                        sex: 'Female'
+                    }
+                },
+                render: function(){
+                    return (
+                        <div>
+                            Hello {this.state.username} , { this.state.sex }
+                        </div>
+                    )
+                }
+            });
+            React.render(<HelloUser />, document.getElementById('app'));
+        </script>
+    </body>
+</html>
