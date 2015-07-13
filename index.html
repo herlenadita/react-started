@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            Latihan Hello World React Js
+        </title>
+    </head>
+    <body>
+        <h1>Latihan React</h1>
+        <div id="app"></div>
+        <script src="js/react.js"></script>
+        <script src="js/jsx.js"></script>
+        <script type="text/jsx">
+            // var HelloWorld = React.createClass({
+            //   displayName: "HelloMessage",
+            //   render: function() {
+            //     return React.createElement("div", null, "Hello World");
+            //   }
+            // });
+            // React.render(React.createElement(HelloWorld),document.getElementById('app'));
+
+            // With jsx
+            var HelloWorld = React.createClass({
+                render: function(){
+                    return <div>Hello World</div>
+                }
+            });
+            React.render(<HelloWorld />, document.getElementById('app'));
+        </script>
+    </body>
+</html>
